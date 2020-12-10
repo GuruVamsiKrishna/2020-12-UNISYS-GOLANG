@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: www.vinod.co
+Accept: text/html
+
+###
+
+GET /products/22 HTTP/1.1
+Host: vinbasket.herokuapp.com
+Accept: application/json
+
+###
+
+GET /products HTTP/1.1
+Host: vinbasket.herokuapp.com
+Accept: application/json
+
+###
+
+GET /brands HTTP/1.1
+Host: vinbasket.herokuapp.com
+Accept: application/json
